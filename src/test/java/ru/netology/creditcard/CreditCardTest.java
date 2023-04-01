@@ -13,7 +13,7 @@ public class CreditCardTest extends PreparingForTests {
         driver.findElement(By.cssSelector("[data-test-id = phone] input")).sendKeys("+79998883456");
         driver.findElement(By.cssSelector("[data-test-id = agreement]")).click();
         driver.findElement(By.className("button")).click();
-        String expected = "  Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.".trim();
+        String expected = "  Ваша заявка успешно отправлена!".trim();
         String actual = driver.findElement(By.cssSelector("[data-test-id = order-success]")).getText().trim();
         assertEquals(expected, actual);
     }
@@ -24,7 +24,7 @@ public class CreditCardTest extends PreparingForTests {
         driver.findElement(By.cssSelector("[data-test-id = phone] input")).sendKeys("+79998883456");
         driver.findElement(By.cssSelector("[data-test-id = agreement]")).click();
         driver.findElement(By.className("button")).click();
-        String expected = "  Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.".trim();
+        String expected = "  Ваша заявка успешно отправлена!".trim();
         String actual = driver.findElement(By.cssSelector("[data-test-id = order-success]")).getText().trim();
         assertEquals(expected, actual);
     }
@@ -35,7 +35,7 @@ public class CreditCardTest extends PreparingForTests {
         driver.findElement(By.cssSelector("[data-test-id = phone] input")).sendKeys("+79998883456");
         driver.findElement(By.cssSelector("[data-test-id = agreement]")).click();
         driver.findElement(By.className("button")).click();
-        String expected = "  Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.".trim();
+        String expected = "  Ваша заявка успешно отправлена!".trim();
         String actual = driver.findElement(By.cssSelector("[data-test-id = order-success]")).getText().trim();
         assertEquals(expected, actual);
     }
@@ -46,7 +46,7 @@ public class CreditCardTest extends PreparingForTests {
         driver.findElement(By.cssSelector("[data-test-id = phone] input")).sendKeys("+79998883456");
         driver.findElement(By.cssSelector("[data-test-id = agreement]")).click();
         driver.findElement(By.className("button")).click();
-        String expected = "  Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.".trim();
+        String expected = "  Ваша заявка успешно отправлена!".trim();
         String actual = driver.findElement(By.cssSelector("[data-test-id = order-success]")).getText().trim();
         assertEquals(expected, actual);
     }
@@ -57,7 +57,7 @@ public class CreditCardTest extends PreparingForTests {
         driver.findElement(By.cssSelector("[data-test-id = phone] input")).sendKeys("+79998883456");
         driver.findElement(By.cssSelector("[data-test-id = agreement]")).click();
         driver.findElement(By.className("button")).click();
-        String expected = "  Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.".trim();
+        String expected = "  Ваша заявка успешно отправлена!".trim();
         String actual = driver.findElement(By.cssSelector("[data-test-id = order-success]")).getText().trim();
         assertEquals(expected, actual);
     }
